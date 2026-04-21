@@ -135,8 +135,8 @@ With a keen eye for design and a strong technical foundation, I build experience
 <tr>
 <td width="50%" valign="top">
 
-### 🦈 [Shark Detection System](https://github.com/ruidev0801/Shark_Detection)
-AI-powered real-time shark detection from drone footage using **YOLO26** and state-of-the-art computer vision.
+### 🦈 [Object Detection System](https://github.com/ruidev0801/Shark_Detection)
+AI-powered real-time marine object detection from drone footage using **YOLO8** and state-of-the-art computer vision.
 
 `Python` `TensorFlow` `OpenCV` `Drone SDK` `YOLO26`
 
@@ -148,7 +148,7 @@ AI-powered real-time shark detection from drone footage using **YOLO26** and sta
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ [Photoshield — Instagram Photo Protection](https://github.com/ruidev0801/Photoshield_2026)
+### 🛡️ [Photo Protection](https://github.com/ruidev0801/Photoshield_2026)
 AI-based system that protects Instagram photos from unauthorized use via image recognition and smart watermarking.
 
 `Python` `TensorFlow` `OpenCV` `Instagram API`
