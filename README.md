@@ -5,7 +5,7 @@
 Creative Software Engineer | AI/ML Engineer | Full-Stack Developer | Prompt Engineer
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ruijindev0801&label=Profile%20Views&color=38bdf8&style=flat-square)](https://github.com/ruijindev0801)
-[![GitHub followers](https://img.shields.io/github/followers/ruijindev0801?label=Follow&style=flat-square&color=38bdf8)](https://github.com/ruijindev0801)
+[![GitHub followers](https://img.shields.io/github/followers/devstar9981?label=Follow&style=flat-square&color=38bdf8)](https://github.com/ruijindev0801)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ruijin9981)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/ruijin9981)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ruijin.ai.dev@outlook.com)
@@ -208,20 +208,20 @@ Real-time GitHub data scraper with interactive dashboards for analysis and repor
 
 <div align="center">
 
-<a href="https://github.com/ruijindev0801">
+<a href="https://github.com/devstar9981">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ruijindev0801&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruijindev0801&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </a>
 
 <br /><br />
 
-<a href="https://github.com/ruijindev0801">
+<a href="https://github.com/devstar9981">
   <img src="https://streak-stats.demolab.com?user=ruijindev0801&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </a>
 
 <br /><br />
 
-<a href="https://github.com/ruijindev0801">
+<a href="https://github.com/devstar9981">
   <img src="https://github-profile-trophy.vercel.app/?username=ruijindev0801&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" />
 </a>
 
@@ -253,7 +253,7 @@ Real-time GitHub data scraper with interactive dashboards for analysis and repor
 I am always open to discussing new projects, freelance opportunities, and collaborations.
 
 - Email: [ruijin.ai.dev@outlook.com](mailto:ruijin.ai.dev@outlook.com)
-- LinkedIn: [linkedin.com/in/ruijin9981](https://linkedin.com/in/ruijin9981)
+- LinkedIn: [linkedin.com/in/ruijin9981](https://linkedin.com/in/devstar9981)
 - GitHub: [github.com/ruijindev0801](https://github.com/ruijindev0801)
 - Twitter: [twitter.com/ruijin9981](https://twitter.com/ruijin9981)
 - Location: Hong Kong
