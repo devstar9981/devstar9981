@@ -209,20 +209,20 @@ Real-time GitHub data scraper with interactive dashboards for analysis and repor
 <div align="center">
 
 <a href="https://github.com/devstar9981">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ruijindev0801&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruijindev0801&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=devstar9981&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devstar9981&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </a>
 
 <br /><br />
 
 <a href="https://github.com/devstar9981">
-  <img src="https://streak-stats.demolab.com?user=ruijindev0801&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=devstar9981&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </a>
 
 <br /><br />
 
 <a href="https://github.com/devstar9981">
-  <img src="https://github-profile-trophy.vercel.app/?username=ruijindev0801&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=devstar9981&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" />
 </a>
 
 </div>
