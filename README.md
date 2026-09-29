@@ -2,268 +2,140 @@
 
 # Rui Jin
 
-Creative Software Engineer | AI/ML Engineer | Full-Stack Developer | Prompt Engineer
+**AI/ML Engineer** · Computer Vision · On-Device ML · MLOps · LLM Evaluation
 
-[![Profile Views](https://komarev.com/ghpvc/?username=ruijindev0801&label=Profile%20Views&color=38bdf8&style=flat-square)](https://github.com/ruijindev0801)
-[![GitHub followers](https://img.shields.io/github/followers/devstar9981?label=Follow&style=flat-square&color=38bdf8)](https://github.com/ruijindev0801)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ruijin9981)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/ruijin9981)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ruijin.ai.dev@outlook.com)
+I build machine learning systems that run in real time on low-power hardware,<br>
+along with the data pipelines, evaluation tools, and apps around them.
+
+Surigao del Norte, Philippines · Remote · **Open to AI/ML roles**
+
+[![Portfolio][b-portfolio]][portfolio]
+[![Resume][b-resume]][resume]
+[![Email][b-email]](mailto:ruijin.developer@gmail.com)
+[![WhatsApp][b-whatsapp]](https://wa.me/639312071477)
+[![Hugging Face][b-huggingface]](https://huggingface.co/ruijindev0801)
+[![Kaggle][b-kaggle]](https://www.kaggle.com/ruijindev0801)
 
 </div>
 
----
+<br>
 
-## About Me
+| 7+ years | 20+ projects | 100% on-device | Certified |
+| :---: | :---: | :---: | :---: |
+| Shipping ML and full-stack software | For Upwork clients, with a 5-star rating | Inference for real-time pose tracking | AI/ML Engineer by micro1, May 2026 |
 
-```ts
-const rui = {
-  name: "Rui Jin",
-  gender: "Male"
-  role: "Creative Software Engineer",
-  location: "Hong Kong",
-  focus: ["AI / ML", "Web Development", "Automation", "Prompt Engineering"],
-  currentWork: "Building AI-powered tools and high-performance digital products",
-  availability: "Open to freelance work and collaborations",
-};
-```
+## About
 
-I am a software engineer with a strong foundation in AI, machine learning, and modern web development. I build products that balance technical reliability, performance, and thoughtful user experience.
+I'm an AI/ML engineer with 7+ years of experience, most of it remote with US-based teams. My strongest work is real-time computer vision on small, low-power devices, where models have to be fast and reliable with no cloud to fall back on.
 
-My work spans full-stack applications, automation systems, AI integrations, and interactive front-end experiences. I am especially interested in practical LLM systems, production-ready ML workflows, and scalable cloud-based solutions.
+At [Nex](https://www.nex.inc), I worked on the body tracking behind [Nex Playground](https://www.nexplayground.com), a game console you play by moving around. That meant training and optimizing lightweight vision models, writing the low-latency camera, sensor fusion, and inference code around them, and building the data pipelines and debugging tools we used to test and ship them.
 
-- Currently working as an AI/ML Engineer delivering production-focused solutions
-- Building experience in LLM systems, agent workflows, and cloud architecture
-- Focused on clean implementation, performance optimization, and maintainable systems
-- Open to freelance opportunities, collaborations, and product-focused engineering work
+Before Nex, I delivered 20+ full-stack and AI integration projects on Upwork and connected a company platform to its computer vision models. Today I work on LLM training and evaluation with [Outlier](https://outlier.ai) and [DataAnnotation](https://www.dataannotation.tech), and in May 2026 I earned micro1's Certified AI/ML Engineer credential.
 
----
+## What I work on
 
-## Skills Overview
-
-<table>
-<tr>
-<td valign="top" width="60%">
-
-### Tech Stack
-
-**Languages**  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
-
-**Frontend**  
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/-Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Angular](https://img.shields.io/badge/-Angular-0F0F11?style=for-the-badge&logo=angular&logoColor=white)
-![Svelte](https://img.shields.io/badge/-Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-Tailwind-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-E10098?style=for-the-badge&logo=framer&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
-**Backend and APIs**  
-![Express](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![.NET](https://img.shields.io/badge/-.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![REST API](https://img.shields.io/badge/-REST%20API-02569B?style=for-the-badge&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-**AI / ML**  
-![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![YOLO](https://img.shields.io/badge/-YOLO-00FFFF?style=for-the-badge&logoColor=black)
-
-**Cloud and DevOps**  
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</td>
-<td valign="top" width="40%">
-
-### Core Strengths
-
-| Area | Level |
-| :--- | :---: |
-| AI / ML | Pro |
-| AI Integration | Pro |
-| Prompt Engineering | Pro |
-| Python | Pro |
-| Full-Stack Web Development | Pro |
-| JavaScript / TypeScript | Pro |
-| SQL / NoSQL | Pro |
-| Web Development | Pro |
-| LLM Workflows and Automation | Advanced |
-| Computer Vision | Advanced |
-| Data Analytics | Advanced |
-| Cloud (AWS / GCP) | Advanced |
-| Automation | Advanced |
-| Data Visualization | Advanced |
-| C# | Advanced |
-
-</td>
-</tr>
-</table>
-
----
+| Area | Focus |
+| :--- | :--- |
+| **Computer&nbsp;vision** | Deep learning models for real-time object detection, tracking, and pose estimation, built with TensorFlow, OpenCV, and YOLO |
+| **On&#8209;device&nbsp;ML** | Making models smaller and faster for low-power ARM hardware, plus the low-latency camera, sensor fusion, and inference code that runs them |
+| **MLOps** | Data pipelines, training and evaluation workflows, CI/CD, deployment, and debugging tools that check accuracy in real-world conditions |
+| **LLMs&nbsp;&&nbsp;NLP** | Prompt engineering, rubric-based evaluation, hallucination review, and LLM features in client products |
+| **Full&#8209;stack** | React, Next.js, Flask, and Node.js apps and REST APIs on AWS and Google Cloud that put models in front of users |
+| **Data** | ETL pipelines, NoSQL data stores, analytics, and client-facing dashboards |
 
 ## Experience
 
-| Period | Role | Company | Location |
-| :--- | :--- | :--- | :--- |
-| Mar 2025 - Present | AI/ML Engineer | Self-Employed | Remote, USA |
-| Jul 2022 - Jan 2026 | Prompt Engineer | Outlier.ai | Remote, USA |
-| Jun 2020 - Dec 2022 | Freelance Software Developer | Upwork | Remote, USA |
-| Sep 2019 - May 2020 | Volunteer Web Developer | Non-Profit Organization | Remote, Hong Kong |
-| Jun 2018 - Aug 2019 | Intern Software Engineer | Tech Startup | Hybrid, Hong Kong |
+### Prompt Engineer · [Outlier](https://outlier.ai) & [DataAnnotation](https://www.dataannotation.tech)
 
-Over 5 years of experience building, shipping, and improving software across web, AI, and automation workflows.
+*Mar 2025 – Present · Remote · Contract*
 
----
+- Write and refine prompts for large language models across classification, summarization, code generation, and multi-step reasoning tasks.
+- Score and compare model responses against detailed rubrics, flag hallucinations, and help improve the quality of LLM training data.
 
-## Education
+### AI/ML Engineer · [Nex](https://www.nex.inc)
 
-**Bachelor of Computer Science**  
-City University of Hong Kong | 2016 - 2020
+*Dec 2022 – Mar 2025 · Remote · Contract*
 
-- Graduated with honors
-- Completed a thesis on AI-driven web applications
-- Active member of the Computer Science Club
+Real-time body tracking for [Nex Playground](https://www.nexplayground.com), a camera-based game console you control by moving.
 
----
+- Built and optimized lightweight computer vision models for real-time pose and gesture tracking on low-power ARM devices, with all inference running on-device instead of in the cloud.
+- Wrote low-latency code for camera input, sensor fusion, and model inference, and connected it to the SDK our game designers and outside Unity developers used to build motion-controlled games.
+- Set up data pipelines and MLOps tooling to train, evaluate, and deploy models, plus debugging tools to check tracking accuracy across different lighting and room setups.
 
-## Certifications
+### Earlier roles
 
-| Certification | Issuer | Date |
-| :--- | :--- | :---: |
-| [AI Engineer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-ai-engineer) | IBM | Mar 2024 |
-| [Certified Kubernetes Application Developer (CKAD)](https://www.cncf.io/certification/ckad/) | CNCF | Jan 2024 |
-| [Google Cloud Professional Data Engineer](https://www.credly.com/badges/google-cloud-professional-data-engineer) | Google Cloud | Sep 2023 |
-| [AWS Certified Developer](https://www.credly.com/badges/aws-certified-developer-associate) | Amazon Web Services | Jun 2023 |
-| [Meta Front-End Developer](https://www.coursera.org/professional-certificates/meta-front-end-developer) | Meta | Dec 2022 |
+| Role | Company | Highlights |
+| :--- | :--- | :--- |
+| **Freelance Software Developer**<br><sub>Jun 2021 – Nov 2022</sub> | Upwork | 20+ full-stack and AI integration projects for SaaS, e-commerce, and analytics clients on AWS and Google Cloud, with a 5-star rating |
+| **Full-Stack Developer**<br><sub>Sep 2019 – Nov 2022 · Part-time</sub> | Customized Limited | Platform features in Java, Python, and Node.js, plus the Python integration with the company's computer vision and ML models |
+| **Software Engineer Intern**<br><sub>Jun 2018 – Aug 2019</sub> | Cloudbreakr | Influencer analytics features and ROI dashboards for brand clients, built with PHP, Laravel, and React |
 
----
+## Selected projects
 
-## Selected Projects
+| Project | What it does | Built with |
+| :--- | :--- | :--- |
+| **Shark Detection from Drone Footage** | Spots and tracks sharks in drone video in real time with a YOLO object detection model and OpenCV | Python, TensorFlow, OpenCV, YOLO, Drone SDK |
+| **Instagram Photo Protection** | Uses image recognition and watermarking to catch and prevent unauthorized use of photos posted on Instagram | Python, TensorFlow, OpenCV, Instagram API |
+| **[GitHub Scraping & Analytics Tool](https://github.com/ruijindev0801/Github_Scraper_2026)** | Desktop app that collects GitHub data through scraping and the GitHub API, then shows it in live, interactive dashboards | Python, CustomTkinter, GitHub API |
+| **[SaaS Landing Page](https://trashlion.com)** | Fast, responsive landing page for a SaaS product, with email integration through Resend | Next.js, React, Tailwind CSS, Resend |
 
-### [Object Detection System](https://github.com/ruijindev0801/Shark_Detection)
-AI-powered real-time marine object detection from drone footage using computer vision and YOLO-based models.
+## Tech stack
 
-**Stack:** `Python` `TensorFlow` `OpenCV` `Drone SDK` `YOLO26`
-
-- Real-time object detection and tracking
-- High-accuracy computer vision pipeline
-- Drone integration for live capture workflows
-- Monitoring interface for operational visibility
-
-### [Photo Protection System](https://github.com/ruijindev0801/Photoshield_2026)
-An AI-based system for protecting Instagram photos from unauthorized use through image recognition and watermarking.
-
-**Stack:** `Python` `TensorFlow` `OpenCV` `Instagram API`
-
-- Detection of unauthorized image use
-- Watermark-based content protection
-- Instagram-related workflow integration
-- Dashboard for managing protected assets
-
-### [TrashLion SaaS Landing Page](https://www.trashlion.com/)
-Responsive, conversion-focused landing page built for a SaaS product. [Repository](https://github.com/Rui0801/trash-lion-app)
-
-**Stack:** `Next.js` `TailwindCSS` `React` `Resend`
-
-- Responsive design across devices
-- Conversion-oriented layout and calls to action
-- Email integration with Resend
-- Clean, modern UI focused on clarity and performance
-
-### [GitHub Scraping Tool](https://github.com/ruijindev0801/Github_Scraper_2026)
-Real-time GitHub data scraper with interactive dashboards for analysis and reporting.
-
-**Stack:** `Python` `CustomTkinter` `GitHub API`
-
-- Real-time GitHub data collection
-- Interactive dashboards for insights
-- Desktop UI built with CustomTkinter
-- API-based reporting workflow
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/devstar9981">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=devstar9981&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devstar9981&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</a>
-
-<br /><br />
-
-<a href="https://github.com/devstar9981">
-  <img src="https://streak-stats.demolab.com?user=devstar9981&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</a>
-
-<br /><br />
-
-<a href="https://github.com/devstar9981">
-  <img src="https://github-profile-trophy.vercel.app/?username=devstar9981&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" />
-</a>
-
-</div>
-
----
-
-## By the Numbers
-
-| Projects Completed | Happy Clients | Years Experience | Client Satisfaction |
-| :---: | :---: | :---: | :---: |
-| **50+** | **30+** | **5+** | **100%** |
-
----
-
-## Services
-
-| Service | Description |
+| Area | Tools |
 | :--- | :--- |
-| AI Product Engineering | Building AI-powered applications, internal tools, and user-facing products with practical real-world value |
-| LLM Integration and Automation | Designing prompt workflows, agent systems, and business automation powered by modern language models |
-| Full-Stack Web Development | Developing scalable web platforms with strong UX, clean architecture, and reliable backend systems |
-| Computer Vision Solutions | Creating vision-based systems for detection, monitoring, classification, and intelligent image workflows |
+| **Languages** | ![Python][b-python] ![TypeScript][b-typescript] ![JavaScript][b-javascript] ![Java][b-java] ![C#][b-csharp] ![SQL][b-sql] |
+| **ML & computer vision** | ![TensorFlow][b-tensorflow] ![scikit-learn][b-sklearn] ![OpenCV][b-opencv] ![YOLO][b-yolo] |
+| **Web** | ![React][b-react] ![Next.js][b-nextjs] ![Node.js][b-nodejs] ![Flask][b-flask] ![Tailwind CSS][b-tailwind] |
+| **Cloud & DevOps** | ![AWS][b-aws] ![Google Cloud][b-gcp] ![Docker][b-docker] ![Kubernetes][b-kubernetes] ![Git][b-git] |
 
----
+## Education & certification
 
-## Contact
+**Bachelor of Computer Science** · City University of Hong Kong\
+*2016 – 2020 · Graduated with honors · Thesis on AI-driven web applications*
 
-I am always open to discussing new projects, freelance opportunities, and collaborations.
+**Certified AI/ML Engineer** · micro1\
+*May 2026 · Passed micro1's AI interview for AI/ML engineering* · [View certificate][certificate]
 
-- Email: [ruijin.ai.dev@outlook.com](mailto:ruijin.ai.dev@outlook.com)
-- LinkedIn: [linkedin.com/in/ruijin9981](https://linkedin.com/in/devstar9981)
-- GitHub: [github.com/ruijindev0801](https://github.com/ruijindev0801)
-- Twitter: [twitter.com/ruijin9981](https://twitter.com/ruijin9981)
-- Location: Hong Kong
-- Availability: Monday to Friday, 9AM - 6PM (CST)
-- Response time: Within 24 hours
+## Get in touch
 
----
+I'm looking for my next AI/ML role. Email is the quickest way to reach me, but WhatsApp works too.
 
-<div align="center">
+- **Email:** [ruijin.developer@gmail.com](mailto:ruijin.developer@gmail.com)
+- **WhatsApp:** [+63 931 207 1477](https://wa.me/639312071477)
+- **Book a call:** [calendly.com/ruijin-developer/ruijin](https://calendly.com/ruijin-developer/ruijin)
 
-*"Code is craft: beautiful, functional, and built to last."*
+<p align="right"><img src="https://komarev.com/ghpvc/?username=ruijindev0801&label=Profile%20views&color=262626&style=flat-square" alt="Profile views"></p>
 
-</div>
+<!-- Links. If your portfolio address changes, update the first line. -->
+[portfolio]: https://ruijin-dev.vercel.app
+[resume]: https://github.com/ruijindev0801/Portfolio2026/blob/master/public/Rui_Jin_Resume.pdf
+[certificate]: https://github.com/user-attachments/assets/7fd61629-16a1-4dab-8b8b-08942077441e
+
+<!-- Badges. Simple Icons' Kaggle logo is an unreadable wordmark, so that badge embeds Font Awesome's "k" icon
+     (CC BY 4.0, https://fontawesome.com/license/free). Simple Icons has no AWS or C# logo, so those are text only. -->
+[b-portfolio]: https://img.shields.io/badge/Portfolio-262626?style=for-the-badge&logo=vercel&logoColor=white
+[b-resume]: https://img.shields.io/badge/Resume-262626?style=for-the-badge&logo=googledocs&logoColor=white
+[b-email]: https://img.shields.io/badge/Email-262626?style=for-the-badge&logo=gmail&logoColor=white
+[b-whatsapp]: https://img.shields.io/badge/WhatsApp-262626?style=for-the-badge&logo=whatsapp&logoColor=white
+[b-huggingface]: https://img.shields.io/badge/Hugging%20Face-262626?style=for-the-badge&logo=huggingface&logoColor=white
+[b-kaggle]: https://img.shields.io/badge/Kaggle-262626?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzA0LjIgNTAxLjVMMTU4LjQgMzIwLjMgMjk4LjIgMTg1YzIuNi0yLjcgMS43LTEwLjUtNS4zLTEwLjVoLTY5LjJjLTMuNSAwLTcgMS44LTEwLjUgNS4zTDgwLjkgMzEzLjVWNy41cTAtNy41LTcuNS03LjVIMjEuNVExNCAwIDE0IDcuNXY0OTdxMCA3LjUgNy41IDcuNWg1MS45cTcuNSAwIDcuNS03LjV2LTEwOWwzMC44LTI5LjMgMTEwLjUgMTQwLjZjMyAzLjUgNi41IDUuMyAxMC41IDUuM2g2Ni45cTUuMjUgMCA2LTN6Ii8%2BPC9zdmc%2B
+[b-python]: https://img.shields.io/badge/Python-262626?style=flat-square&logo=python&logoColor=white
+[b-typescript]: https://img.shields.io/badge/TypeScript-262626?style=flat-square&logo=typescript&logoColor=white
+[b-javascript]: https://img.shields.io/badge/JavaScript-262626?style=flat-square&logo=javascript&logoColor=white
+[b-java]: https://img.shields.io/badge/Java-262626?style=flat-square&logo=openjdk&logoColor=white
+[b-csharp]: https://img.shields.io/badge/C%23-262626?style=flat-square
+[b-sql]: https://img.shields.io/badge/SQL-262626?style=flat-square
+[b-tensorflow]: https://img.shields.io/badge/TensorFlow-262626?style=flat-square&logo=tensorflow&logoColor=white
+[b-sklearn]: https://img.shields.io/badge/scikit--learn-262626?style=flat-square&logo=scikitlearn&logoColor=white
+[b-opencv]: https://img.shields.io/badge/OpenCV-262626?style=flat-square&logo=opencv&logoColor=white
+[b-yolo]: https://img.shields.io/badge/YOLO-262626?style=flat-square&logo=yolo&logoColor=white
+[b-react]: https://img.shields.io/badge/React-262626?style=flat-square&logo=react&logoColor=white
+[b-nextjs]: https://img.shields.io/badge/Next.js-262626?style=flat-square&logo=nextdotjs&logoColor=white
+[b-nodejs]: https://img.shields.io/badge/Node.js-262626?style=flat-square&logo=nodedotjs&logoColor=white
+[b-flask]: https://img.shields.io/badge/Flask-262626?style=flat-square&logo=flask&logoColor=white
+[b-tailwind]: https://img.shields.io/badge/Tailwind%20CSS-262626?style=flat-square&logo=tailwindcss&logoColor=white
+[b-aws]: https://img.shields.io/badge/AWS-262626?style=flat-square
+[b-gcp]: https://img.shields.io/badge/Google%20Cloud-262626?style=flat-square&logo=googlecloud&logoColor=white
+[b-docker]: https://img.shields.io/badge/Docker-262626?style=flat-square&logo=docker&logoColor=white
+[b-kubernetes]: https://img.shields.io/badge/Kubernetes-262626?style=flat-square&logo=kubernetes&logoColor=white
+[b-git]: https://img.shields.io/badge/Git-262626?style=flat-square&logo=git&logoColor=white
