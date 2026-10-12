@@ -79,15 +79,15 @@ Real-time body tracking for Nex's motion games on iOS and Android phones.
 | :--- | :--- | :--- |
 | **Marine Object Detection**<br><sub>Client work · NDA</sub> | Real-time detection of kelp, plastic bottles, surfers, whales, boats, and containers for a marine company, stable enough to run on phones and drones | Python, YOLO26, TensorFlow, OpenCV, Drone SDK |
 | **Instagram Avatar Protection**<br><sub>Client work · NDA</sub> | Uses image recognition and watermarking to catch and prevent unauthorized reuse of users' Instagram profile photos | Python, TensorFlow, OpenCV, Instagram API |
-| **[EmbeddingGemma 2 Code Search Benchmark](https://github.com/ruijindev0801/embeddinggemma2-benchmark)** | Open benchmark of Google's EmbeddingGemma 2 against the first EmbeddingGemma on code search at 768, 512, 256, and 128 dimensions, plus CPU speed and memory. At 256 dimensions it matched the original at 768 | Python, PyTorch, sentence-transformers |
-| **[Portfolio with live pose demo](https://github.com/ruijindev0801/Portfolio2026)** | Personal site with in-browser pose tracking (GPU first, CPU fallback, nothing uploaded), plus an ATS-friendly resume PDF built from the same JSON file | Next.js, TypeScript, MediaPipe, Tailwind CSS |
-| **[GitHub Scraping & Analytics Tool](https://github.com/ruijindev0801/Github_Scraper_2026)** | Desktop app that collects GitHub data through scraping and the GitHub API, then shows it in live, interactive dashboards | Python, CustomTkinter, GitHub API |
-| **[SaaS Landing Page](https://trashlion.com)** | Fast, responsive landing page for a SaaS product, with email integration through Resend | Next.js, React, Tailwind CSS, Resend |
+| **[EmbeddingGemma 2 Code Search Benchmark](https://github.com/devstar9981/embeddinggemma2-benchmark)** | Open benchmark of Google's EmbeddingGemma 2 against the first EmbeddingGemma on code search at 768, 512, 256, and 128 dimensions, plus CPU speed and memory. At 256 dimensions it matched the original at 768 | Python, PyTorch, sentence-transformers |
+| **[Portfolio with live pose demo](https://github.com/devstar9981/Portfolio2026)** | Personal site with in-browser pose tracking (GPU first, CPU fallback, nothing uploaded), plus an ATS-friendly resume PDF built from the same JSON file | Next.js, TypeScript, MediaPipe, Tailwind CSS |
+| **[GitHub Scraping & Analytics Tool](https://github.com/devstar9981/Github_Scraper_2026)** | Desktop app that collects GitHub data through scraping and the GitHub API, then shows it in live, interactive dashboards | Python, CustomTkinter, GitHub API |
+| **[SaaS Landing Page](https://trashlion.com)** | Fast, responsive landing page for a SaaS producdt, with email integration through Resend | Next.js, React, Tailwind CSS, Resend |
 
 ## Writing & reading
 
 - **[EmbeddingGemma 2 at 256 Dimensions Matches the Original at 768][article]** · *Oct 2026*<br>
-  A code search benchmark of Google's new embedding model at four vector sizes, with the [code on GitHub](https://github.com/ruijindev0801/embeddinggemma2-benchmark).
+  A code search benchmark of Google's new embedding model at four vector sizes, with the [code on GitHub](https://github.com/devstar9981/embeddinggemma2-benchmark).
 
 What I'm reading lately, from daily.dev:
 
@@ -128,12 +128,12 @@ I'm open to AI/ML Software Engineer roles. Email is the quickest way to reach me
 - **X:** [@invictusDev0][x]
 - **Book a call:** [cal.com/rui-jin/short-call](https://cal.com/rui-jin/short-call)
 
-<p align="right"><img src="https://komarev.com/ghpvc/?username=ruijindev0801&label=Profile%20views&color=262626&style=flat-square" alt="Profile views"></p>
+<p align="right"><img src="https://komarev.com/ghpvc/?username=devstar9981&label=Profile%20views&color=262626&style=flat-square" alt="Profile views"></p>
 
 <!-- Links. If your portfolio address changes, update the first three lines. -->
-[portfolio]: https://ruijin-ai-dev.vercel.app
-[demo]: https://ruijin-ai-dev.vercel.app/#demo
-[resume]: https://ruijin-ai-dev.vercel.app/Rui_Jin_Resume.pdf
+[portfolio]: https://ruijin2026.vercel.app
+[demo]: https://ruijin2026.vercel.app/#demo
+[resume]: https://ruijin2026.vercel.app/Rui_Jin_Resume.pdf
 [x]: https://x.com/invictusDev0
 [article]: https://medium.com/@ruijin.developer/embeddinggemma-2-my-take-on-googles-new-multimodal-embedding-model-e2c14f848970
 [certificate]: https://github.com/user-attachments/assets/7fd61629-16a1-4dab-8b8b-08942077441e
