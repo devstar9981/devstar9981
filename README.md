@@ -2,15 +2,16 @@
 
 # Rui Jin
 
-**Senior AI/ML Engineer** · Computer Vision · On-Device ML · LLM Evaluation · MLOps
+**Senior AI/ML Engineer** · LLM Evaluation & RLHF · Computer Vision · On-Device ML
 
-I build machine learning systems that run in real time on phones and drones,<br>
-and right now I help train and evaluate large language models.
+I train and evaluate large language models, and I test evaluation methods in the open.<br>
+Before that, 7 years of ML and full-stack software, including on-device body tracking at Nex.
 
 Surigao del Norte, Philippines · **Open to AI/ML Software Engineer roles**
 
 [![Portfolio][b-portfolio]][portfolio]
 [![Resume][b-resume]][resume]
+[![Medium][b-medium]][medium]
 [![X][b-x]][x]
 [![Email][b-email]](mailto:ruijin.developer@gmail.com)
 
@@ -18,51 +19,49 @@ Surigao del Norte, Philippines · **Open to AI/ML Software Engineer roles**
 
 <br>
 
-## Current focus
+## Right now
 
-**AI Training & Evaluation Specialist** with [Outlier](https://outlier.ai) and [AfterQuery](https://www.afterquery.com), platforms that AI companies use to train and evaluate their models. I write prompts, grade model answers against detailed rubrics, and help improve the data large language models learn from.
+**AI Training & Evaluation Specialist** with [Outlier](https://outlier.ai) and [AfterQuery](https://www.afterquery.com) (since Mar 2025), platforms that AI companies use to train and evaluate their models.
 
-Want to see the computer vision side? My portfolio has a **[live pose-tracking demo][demo]** that runs right in your browser: a small version of the on-device body tracking I worked on at Nex.
+- Write prompts built to expose where models fail, across classification, summarization, code generation, and multi-step reasoning.
+- Grade and compare model answers against detailed rubrics for RLHF, with a justification for every rating.
+- Flag hallucinations and factual errors, and rewrite weak answers into correct reference responses.
+- Review generated code for correctness and readability.
 
-## About
+On [my portfolio][portfolio] you can try a **live pose-tracking demo with a rep counter** that runs in your browser, or **chat with my AI assistant** about my work. It answers only from the site.
 
-I started as a full-stack developer and moved into AI/ML because it's the fastest-growing part of software. Over 7+ years I've built ML and full-stack software, much of it with US-based teams. My strongest work is real-time computer vision on phones and drones, where models have to be fast and reliable on the device itself.
+## By the numbers
 
-At [Nex](https://www.nex.inc), I worked on real-time body tracking for motion games on iOS and Android phones. Tracking had to run at 30 frames per second on the phone, and two of the hardest problems were encoding high-quality video and keeping the network connection stable. I also built a marine object detection system with YOLO26 that runs on phones and drones.
-
-In May 2026 I passed micro1's AI interview to become a Certified AI/ML Engineer. Next, I'm looking for an AI/ML Software Engineer role on an AI-focused team, where I can build models and the software that ships them for the long run.
-
-## What I work on
-
-| Area | Focus |
+| | |
 | :--- | :--- |
-| **LLMs&nbsp;&&nbsp;NLP** | Prompt engineering, rubric-based evaluation, hallucination review, and LLM features in client products |
-| **Computer&nbsp;vision** | Deep learning models for real-time object detection, tracking, and pose estimation, from body tracking on phones to marine detection on drones with YOLO26 |
-| **On&#8209;device&nbsp;ML** | Making models smaller and faster so real-time tracking runs at 30 fps on iOS and Android phones, plus the camera, video encoding, and inference code around them |
-| **MLOps** | Data pipelines, training and evaluation workflows, CI/CD, deployment, and debugging tools that check accuracy in real-world conditions |
-| **Full&#8209;stack** | React, Next.js, Flask, and Node.js apps and REST APIs on AWS and Google Cloud that put models in front of users |
-| **Data** | ETL pipelines, NoSQL data stores, analytics, and client-facing dashboards |
+| **7+** | years building ML and software |
+| **20+** | full-stack and AI projects for clients, with a 5-star rating |
+| **62%** | of RepCount-A test videos counted within one rep by my on-device rep counter (best published pose-based method: 56%) |
+| **0.57** | correlation with human rubric grades from Qwen3.5 4B judging on a 4 GB GPU (GPT-4 as judge: 0.56) |
+
+## Open projects
+
+| Project | Result | Built with |
+| :--- | :--- | :--- |
+| **[On-Device Rep Counter][rep]**<br><sub>[Try it live][demo]</sub> | A small model trained from scratch reads MediaPipe body landmarks and counts exercise reps in the browser on INT8 weights. **62%** of RepCount-A test videos within one rep, vs. 56% for the best published pose-based method. 106 KB model, 0.35 ms per frame | PyTorch, MediaPipe, ONNX, INT8 quantization, TypeScript |
+| **[Small LLM Judges vs. Human Rubric Grades][judge]** | Can a small open model on a 4 GB GPU grade answers like a person? On 320 human-scored BiGGen-Bench answers, Qwen3.5 4B (4-bit) reached **r = 0.57**, matching GPT-4 (0.56). A cross-validated calibration brought it within one point on 86% of answers | Python, llama.cpp, LLM-as-a-judge |
+| **[EmbeddingGemma 2 Code Search Benchmark][gemma]** | Google's EmbeddingGemma 2 vs. the first EmbeddingGemma at 768, 512, 256, and 128 dimensions. At 256 dimensions it matched the original at 768 (**90.2 vs. 90.1** NDCG@10) with a third of the storage, and led by 4.7 points on CosQA | Python, PyTorch, sentence-transformers |
 
 ## Experience
 
 ### AI Training & Evaluation Specialist · [Outlier](https://outlier.ai) & [AfterQuery](https://www.afterquery.com)
 
-*Mar 2025 – Present*
-
-- Write and refine prompts for large language models (LLMs) across classification, summarization, code generation, and multi-step reasoning tasks, including hard prompts built to expose where models fail.
-- Score and compare model responses side by side against detailed rubrics for accuracy, reasoning, and instruction following, and write a clear justification for each rating.
-- Flag hallucinations and factual errors, and rewrite weak answers into clear, correct reference responses.
-- Review generated code for correctness and readability, drawing on 7+ years of software and ML engineering.
+*Mar 2025 – Present* · LLM evaluation, prompt engineering, RLHF, code review
 
 ### AI/ML Engineer · [Nex](https://www.nex.inc)
 
 *Dec 2022 – Mar 2025*
 
-Real-time body tracking for Nex's motion games on iOS and Android phones.
+Real-time body tracking behind Nex's motion-controlled games, where players control the game by moving in front of their phone's camera.
 
 - Built and optimized lightweight computer vision models for real-time pose and gesture tracking on iOS and Android phones, targeting 30 fps with all inference running on-device.
 - Worked on two of the hardest parts of the pipeline: encoding high-quality video on the phone and keeping the network connection stable.
-- Wrote low-latency code for camera input, sensor fusion, and model inference, and connected it to the SDK our game designers and outside Unity developers used to build motion-controlled games.
+- Wrote low-latency code for camera input, sensor fusion, and model inference, connected to the SDK that game designers and outside Unity developers used.
 - Set up data pipelines and MLOps tooling to train, evaluate, and deploy models, plus debugging tools to check tracking accuracy across different lighting and room setups.
 
 ### Earlier roles
@@ -70,26 +69,24 @@ Real-time body tracking for Nex's motion games on iOS and Android phones.
 | Role | Company | Highlights |
 | :--- | :--- | :--- |
 | **Freelance Software Developer**<br><sub>Jun 2021 – Nov 2022</sub> | Upwork | 20+ full-stack and AI integration projects for SaaS, e-commerce, and analytics clients on AWS and Google Cloud, with a 5-star rating |
-| **Full-Stack Developer**<br><sub>Sep 2019 – Nov 2022</sub> | Customized Limited | Platform features in Java, Python, and Node.js, plus the Python integration with the company's computer vision and ML models |
+| **Full-Stack Developer**<br><sub>Sep 2019 – Nov 2022 · Part-time</sub> | Customized Limited | Platform features in Java, Python, and Node.js, plus the Python integration with the company's computer vision and ML models |
 | **Software Engineer Intern**<br><sub>Jun 2018 – Aug 2019</sub> | Cloudbreakr | Influencer analytics features and ROI dashboards for brand clients, built with PHP, Laravel, and React |
 
-## Selected projects
+### Client work under NDA
 
 | Project | What it does | Built with |
 | :--- | :--- | :--- |
-| **Marine Object Detection**<br><sub>Client work · NDA</sub> | Real-time detection of kelp, plastic bottles, surfers, whales, boats, and containers for a marine company, stable enough to run on phones and drones | Python, YOLO26, TensorFlow, OpenCV, Drone SDK |
-| **Instagram Avatar Protection**<br><sub>Client work · NDA</sub> | Uses image recognition and watermarking to catch and prevent unauthorized reuse of users' Instagram profile photos | Python, TensorFlow, OpenCV, Instagram API |
-| **[EmbeddingGemma 2 Code Search Benchmark](https://github.com/devstar9981/embeddinggemma2-benchmark)** | Open benchmark of Google's EmbeddingGemma 2 against the first EmbeddingGemma on code search at 768, 512, 256, and 128 dimensions, plus CPU speed and memory. At 256 dimensions it matched the original at 768 | Python, PyTorch, sentence-transformers |
-| **[Portfolio with live pose demo](https://github.com/devstar9981/Portfolio2026)** | Personal site with in-browser pose tracking (GPU first, CPU fallback, nothing uploaded), plus an ATS-friendly resume PDF built from the same JSON file | Next.js, TypeScript, MediaPipe, Tailwind CSS |
-| **[GitHub Scraping & Analytics Tool](https://github.com/devstar9981/Github_Scraper_2026)** | Desktop app that collects GitHub data through scraping and the GitHub API, then shows it in live, interactive dashboards | Python, CustomTkinter, GitHub API |
-| **[SaaS Landing Page](https://trashlion.com)** | Fast, responsive landing page for a SaaS producdt, with email integration through Resend | Next.js, React, Tailwind CSS, Resend |
+| **Marine Object Detection** | Real-time detection of kelp, plastic bottles, surfers, whales, boats, and containers for a marine company, stable enough to run on phones and drones | Python, PyTorch, YOLO26, OpenCV, Drone SDK |
+| **Instagram Avatar Protection** | Image recognition and watermarking that catch and prevent unauthorized reuse of users' Instagram profile photos | Python, TensorFlow, OpenCV, Instagram API |
 
-## Writing & reading
+## Writing
 
-- **[EmbeddingGemma 2 at 256 Dimensions Matches the Original at 768][article]** · *Oct 2026*<br>
-  A code search benchmark of Google's new embedding model at four vector sizes, with the [code on GitHub](https://github.com/devstar9981/embeddinggemma2-benchmark).
+- **[Anthropic Asked Its Own Staff How Fast AI Is Moving. Their Answers Look Nothing Like the Public's.][w-anthropic]** · *Oct 2026*
+- **[Google Is Paying Publishers for AI Content. Meta Rewrote Its Terms Instead.][w-google]** · *Oct 2026*
+- **[Microsoft-Decision-1 Makes Decisions Almost Free. Someone Still Has to Check Them.][w-msft]** · *Oct 2026*
+- **[EmbeddingGemma 2 at 256 Dimensions Matches the Original at 768][w-gemma]** · *Oct 2026*
 
-What I'm reading lately, from daily.dev:
+More on [Medium][medium]. What I'm reading lately, from daily.dev:
 
 <a href="https://daily.dev/ruijin"><img src="https://api.daily.dev/devcards/v2/8Vv3LBPKdik1Is1F8MAke.png?type=wide&r=7e5" width="652" alt="Rui Jin's Dev Card"/></a>
 
@@ -98,35 +95,23 @@ What I'm reading lately, from daily.dev:
 | Area | Tools |
 | :--- | :--- |
 | **Languages** | ![Python][b-python] ![TypeScript][b-typescript] ![JavaScript][b-javascript] ![Java][b-java] ![C#][b-csharp] ![SQL][b-sql] |
-| **ML & computer vision** | ![TensorFlow][b-tensorflow] ![scikit-learn][b-sklearn] ![OpenCV][b-opencv] ![YOLO][b-yolo] |
-| **LLMs** | ![Prompt engineering][b-prompt] ![LLM evaluation][b-llmeval] |
+| **ML & computer vision** | ![PyTorch][b-pytorch] ![TensorFlow][b-tensorflow] ![scikit-learn][b-sklearn] ![OpenCV][b-opencv] ![YOLO][b-yolo] ![ONNX][b-onnx] |
+| **LLMs** | ![LLM evaluation][b-llmeval] ![RLHF][b-rlhf] ![Prompt engineering][b-prompt] |
 | **Web** | ![React][b-react] ![Next.js][b-nextjs] ![Node.js][b-nodejs] ![Flask][b-flask] ![Tailwind CSS][b-tailwind] |
 | **Cloud & DevOps** | ![AWS][b-aws] ![Google Cloud][b-gcp] ![Docker][b-docker] ![Kubernetes][b-kubernetes] ![Git][b-git] |
 
-## Education & certification
+## Education
 
 **Bachelor of Computer Science** · City University of Hong Kong\
 *2016 – 2020 · Graduated with honors · Thesis on AI-driven web applications*
-
-**Certified AI/ML Engineer** · micro1\
-*May 2026 · Passed micro1's AI interview for AI/ML engineering* · [View certificate][certificate]
-
-## Off the clock
-
-- **Powered by espresso.** My models run on GPUs. I run on espresso.
-- **Still waiting for my Hogwarts letter.** Harry Potter is my favorite book. Until the owl shows up, I'll keep casting spells in Python.
-- **Certified comedy addict.** Zootopia, Ne Zha, and Despicable Me are my all-time favorite comedies. The Minions get me every single time.
-
-> *"I am the master of my fate, I am the captain of my soul."* (William Ernest Henley)<br>
-> *"Stay hungry, stay foolish."* (Steve Jobs)
 
 ## Get in touch
 
 I'm open to AI/ML Software Engineer roles. Email is the quickest way to reach me, or you can book a short call.
 
 - **Email:** [ruijin.developer@gmail.com](mailto:ruijin.developer@gmail.com)
-- **X:** [@invictusDev0][x]
 - **Book a call:** [cal.com/rui-jin/short-call](https://cal.com/rui-jin/short-call)
+- **X:** [@invictusDev0][x] · **Medium:** [ruijin9981.medium.com][medium] · **FILLI.ME:** [filli.me/builders/ruijin](https://www.filli.me/builders/ruijin)
 
 <p align="right"><img src="https://komarev.com/ghpvc/?username=devstar9981&label=Profile%20views&color=262626&style=flat-square" alt="Profile views"></p>
 
@@ -134,13 +119,20 @@ I'm open to AI/ML Software Engineer roles. Email is the quickest way to reach me
 [portfolio]: https://ruijin2026.vercel.app
 [demo]: https://ruijin2026.vercel.app/#demo
 [resume]: https://ruijin2026.vercel.app/Rui_Jin_Resume.pdf
+[medium]: https://ruijin9981.medium.com
 [x]: https://x.com/invictusDev0
-[article]: https://medium.com/@ruijin.developer/embeddinggemma-2-my-take-on-googles-new-multimodal-embedding-model-e2c14f848970
-[certificate]: https://github.com/user-attachments/assets/7fd61629-16a1-4dab-8b8b-08942077441e
+[rep]: https://github.com/devstar9981/pose-rep-counter
+[judge]: https://github.com/devstar9981/llm-judge-agreement
+[gemma]: https://github.com/devstar9981/embeddinggemma2-benchmark
+[w-anthropic]: https://medium.com/@ruijin.developer/anthropic-asked-its-own-staff-how-fast-ai-is-moving-their-answers-look-nothing-like-the-publics-d93d6e264c20
+[w-google]: https://medium.com/@ruijin.developer/google-is-paying-publishers-for-ai-content-meta-rewrote-its-terms-instead-6dfe18f7578d
+[w-msft]: https://medium.com/@ruijin.developer/microsoft-decision-1-makes-decisions-almost-free-someone-still-has-to-check-them-63bcc8a53e08
+[w-gemma]: https://medium.com/@ruijin.developer/embeddinggemma-2-my-take-on-googles-new-multimodal-embedding-model-e2c14f848970
 
 <!-- Badges. Simple Icons has no AWS or C# logo, so those are text only. -->
 [b-portfolio]: https://img.shields.io/badge/Portfolio-262626?style=for-the-badge&logo=vercel&logoColor=white
 [b-resume]: https://img.shields.io/badge/Resume-262626?style=for-the-badge&logo=googledocs&logoColor=white
+[b-medium]: https://img.shields.io/badge/Medium-262626?style=for-the-badge&logo=medium&logoColor=white
 [b-x]: https://img.shields.io/badge/X-262626?style=for-the-badge&logo=x&logoColor=white
 [b-email]: https://img.shields.io/badge/Email-262626?style=for-the-badge&logo=gmail&logoColor=white
 [b-python]: https://img.shields.io/badge/Python-262626?style=flat-square&logo=python&logoColor=white
@@ -149,12 +141,15 @@ I'm open to AI/ML Software Engineer roles. Email is the quickest way to reach me
 [b-java]: https://img.shields.io/badge/Java-262626?style=flat-square&logo=openjdk&logoColor=white
 [b-csharp]: https://img.shields.io/badge/C%23-262626?style=flat-square
 [b-sql]: https://img.shields.io/badge/SQL-262626?style=flat-square
+[b-pytorch]: https://img.shields.io/badge/PyTorch-262626?style=flat-square&logo=pytorch&logoColor=white
 [b-tensorflow]: https://img.shields.io/badge/TensorFlow-262626?style=flat-square&logo=tensorflow&logoColor=white
 [b-sklearn]: https://img.shields.io/badge/scikit--learn-262626?style=flat-square&logo=scikitlearn&logoColor=white
 [b-opencv]: https://img.shields.io/badge/OpenCV-262626?style=flat-square&logo=opencv&logoColor=white
 [b-yolo]: https://img.shields.io/badge/YOLO-262626?style=flat-square&logo=yolo&logoColor=white
-[b-prompt]: https://img.shields.io/badge/Prompt%20engineering-262626?style=flat-square
+[b-onnx]: https://img.shields.io/badge/ONNX-262626?style=flat-square&logo=onnx&logoColor=white
 [b-llmeval]: https://img.shields.io/badge/LLM%20evaluation-262626?style=flat-square
+[b-rlhf]: https://img.shields.io/badge/RLHF-262626?style=flat-square
+[b-prompt]: https://img.shields.io/badge/Prompt%20engineering-262626?style=flat-square
 [b-react]: https://img.shields.io/badge/React-262626?style=flat-square&logo=react&logoColor=white
 [b-nextjs]: https://img.shields.io/badge/Next.js-262626?style=flat-square&logo=nextdotjs&logoColor=white
 [b-nodejs]: https://img.shields.io/badge/Node.js-262626?style=flat-square&logo=nodedotjs&logoColor=white
