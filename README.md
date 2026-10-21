@@ -110,7 +110,7 @@ More on [Medium][medium]. What I'm reading lately, from daily.dev:
 I'm open to AI/ML Software Engineer roles. Email is the quickest way to reach me, or you can book a short call.
 
 - **Email:** [ruijin.developer@gmail.com](mailto:ruijin.developer@gmail.com)
-- **Book a call:** [cal.com/rui-jin/short-call](https://cal.com/rui-jin/short-call)
+- **Book a call:** [cal.com/ruijin/short-call](https://cal.com/ruijin/short-call)
 - **X:** [@invictusDev0][x] · **Medium:** [ruijin9981.medium.com][medium] · **FILLI.ME:** [filli.me/builders/ruijin](https://www.filli.me/builders/ruijin)
 
 <p align="right"><img src="https://komarev.com/ghpvc/?username=devstar9981&label=Profile%20views&color=262626&style=flat-square" alt="Profile views"></p>
